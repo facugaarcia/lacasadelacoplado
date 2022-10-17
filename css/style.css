@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ HEADER ---------------- */
+header{
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(255,69,0,1) 66%, rgba(229,40,40,1) 100%);
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+header img{
+    width: 300px;
+    height: 100px; 
+}
+
+header nav ul{
+    list-style: none;
+    text-align: right;
+    display: flex;
+    transition-duration: 2s;
+
+}
+
+header nav ul{
+    transform: scale(1);
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+header nav ul li{
+    padding: 3px;
+}
+/* ------------ MAIN ----------------- */
+.hero{
+    background-image: url(../img/camion-main-hd.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-bottom: 556px;
+}
+
+.hero h1{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+
+.hero div h2 {
+    background-color:black;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+
+.repuestos .repuestosBox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.repuestos .repuestosBox div {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    height: 450px;
+    box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+.repuestos div img{
+    width: 200px;
+    height: 300px;
+}
+
+.repuestos .calderas img{
+    width: 350px;
+}
+
+.repuestos .hojaElastico img{
+    width: 350px;
+}
+
+.repuestos .repuestosBox p{
+    margin-bottom: 20px;
+}
+
+.repuestos .repuestosBox a {
+    text-decoration: none;
+    background-color: #ff4500;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+.repuestos h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.videos {
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 58px;
+    margin-bottom: 20px;
+}
+
+.horariosLocal {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 50px;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    text-align: center;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 10px;
+    box-shadow: -9px 10px 5px 0px rgba(224,96,27,0.75);
+    -webkit-box-shadow: -9px 10px 5px 0px rgba(224,96,27,0.75);
+    -moz-box-shadow: -9px 10px 5px 0px rgba(224,96,27,0.75);
+}
+
+.horariosLocal div{
+    color: white;
+}
+
+/* ----------- SERVICIOS -------------- */
+
+.servicios .tituloServicios {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #fdbb2d;
+}
+
+.servicios .div1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.servicios .div1 img {
+    width: 50%;
+    height: 50%;
+}
+
+.servicios .div1 h2 {
+    display: flex;
+    justify-content: start;
+}
+
+.servicios .div1 p {
+    display: flex;
+    justify-content: end;
+}
+
+.servicios .div2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.servicios .div2 img {
+    width: 50%;
+    height: 50%;
+}
+
+/* ----------- REPUESTOS -------------- */
+
+.repuestos1 .repuestosBox1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.repuestos1 .repuestosBox1 div {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    height: 300px;
+    box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+.repuestos1 div img{
+    width: 100px;
+    height: 150px;
+}
+
+.repuestos1 .calderas1 img{
+    width: 200px;
+}
+
+.repuestos1 .hojaElastico1 img{
+    width: 200px;
+}
+
+.repuestos1 .repuestosBox1 p{
+    margin-bottom: 20px;
+}
+
+.repuestos1 .repuestosBox1 a {
+    text-decoration: none;
+    background-color: #ff4500;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+.repuestos1 p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.repuestos1 h2 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+/* ----------- ACERCA DE NOSOTROS -------------- */
+
+.acercaDeNosotros {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #fdbb2d;
+}
+
+.acercaDe div img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+/* ----------- FOOTER -------------- */
+
+.redesSociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.redesSociales a img {
+    width: 25px;
+    height: 25px;
+}
+
+footer{
+    display: flex;
+    background: rgb(229,40,40);
+    background: linear-gradient(0deg, rgba(229,40,40,1) 0%, rgba(255,69,0,1) 25%, rgba(253,187,45,1) 100%);
+    padding: 30px;
+}
+
+/* ----------- FORMULARIO -------------- */
+
+body{
+	height: 100%; 
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.contact_form{	
+	width: 460px; 
+    height: auto;
+    margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: #ff6d38; 
+    padding-left: 30px; 
+}
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ff4500; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #000000; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ff4400; 
+	border-color: #ff4500; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+}
+
+button p{
+	color: #fff; 
+}
+
+span{
+	color: #000000; 
+}
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+h1{
+	font-size: 39px;  
+	text-align: letf; 
+	padding-bottom: 20px; 
+	color: #000000;
+}
+
+h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: #0e0e0e;   
+}
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #000000;
+}
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #000000;
+}
