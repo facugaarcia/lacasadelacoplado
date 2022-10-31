@@ -1,0 +1,185 @@
+
+main{
+    .hero{
+        background-image: url(../img/camion-main-hd.jpg);
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        padding-bottom: 556px;
+        h1{
+            position: absolute;
+            bottom: 40px;
+            left: 60px;
+        }
+        div{
+            h2{
+                    background-color:black;
+                    text-decoration: none;
+                    color:white;
+                    text-align: center;
+            }
+        }
+    }
+    .repuestos{
+        h2 {
+            font-family: 'Bebas Neue', cursive;
+            text-align: center;
+            font-size: 40px;
+            padding: 20px;
+        }
+        div{
+            img{
+                width: 200px;
+                height: 300px;
+            }
+            
+        }
+        .repuestosBox{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 30px;
+            p{
+                margin-bottom: 20px;
+            }
+            a {
+                text-decoration: none;
+                background-color: #ff4500;
+                color: white;
+                padding: 5px 10px 5px 10px;
+            }            
+            div {
+                display: inline-block;
+                text-align: center;
+                border: 2px solid black;
+                height: 450px;
+                box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+            }
+            .calderas {
+                img{
+                    width: 350px;
+                }
+            }
+            .hojaElastico{
+                img{
+                    width: 350px;
+                }
+            }
+        }
+    }
+    .videos{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 1fr ;
+        p{
+            border: solid 2px;
+            margin: 10px;
+        }
+        iframe {
+            border: solid 2px;
+            margin: 10px;
+        }
+    }
+    .servicios{
+        .tituloServicios{
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            background-color: #fdbb2d;
+        }
+        .div1 {
+            display: flex;
+            justify-content: flex-end;
+            img {
+                width: 50%;
+                height: 50%;
+            }
+            p {
+                display: flex;
+                justify-content: end;
+            }
+        } 
+        .div2 {
+            display: flex;
+            justify-content: flex-end;
+            img {
+                width: 50%;
+                height: 50%;
+            }
+        }
+    }
+    .acercaDe {
+        .acercaDeNosotros {
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            background-color: #fdbb2d;
+        }
+        div{
+            img{
+                width: 60%;
+                height: 60%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+.repuestos1 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 40px;
+    h2 {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+    }
+    p{
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    a{
+        text-decoration: none;
+        background-color: #ff4500;
+        color: white;
+        padding: 5px 10px 5px 10px;
+    }    
+    h1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        text-align: center;
+    }
+    div {
+        display: inline-block;
+        text-align: center;
+        border: 2px solid black;
+        height: 300px;
+        box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -8px 8px 5px 0px rgba(0,0,0,0.75);
+        img{
+            width: 100px;
+            height: 150px;
+        }
+    }
+    .calderas1{
+        img{
+            width: 200px;
+        }
+    }
+    .hojaElastico1{
+        img{
+            width: 200px;
+        }
+    }
+}

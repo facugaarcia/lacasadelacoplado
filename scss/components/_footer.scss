@@ -1,0 +1,22 @@
+
+footer{
+    display: flex;
+    background: rgb(229,40,40);
+    background: linear-gradient(0deg, rgba(229,40,40,1) 0%, rgba(255,69,0,1) 25%, rgba(253,187,45,1) 100%);
+    padding: 30px;
+    .redesSociales{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        a{
+            img{
+                width: 25px;
+                height: 25px;
+                transition-duration: 0.2s;
+                &:hover{
+                    transform: scale(1.10);
+                }
+            }
+        }
+    }
+}
