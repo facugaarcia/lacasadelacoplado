@@ -32,6 +32,13 @@
 
 /* ----------- MEDIA QUERY INDEX -------------- */
 
+@media  screen and (max-width: 1275px) {
+    .repuestosBox{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 900px){
     .repuestos .repuestosBox .calderas{
         display: none;
@@ -51,18 +58,30 @@
     .horariosLocal{
         display: none;
     }
-    
+
     .videos p {
-        width: 80%px;
-        height: 80%px;
+        width: 80%;
     }
 
     .videos iframe{
-        width: 80%;
-        height: 80%;
+        width: 80%;;
     }
 
     .hero h1{
         font-size: 30px;
+    }
+}
+
+
+@mixin mediaquery($ancho) {
+    @media screen and (max-width: #{$ancho}) {
+        @content;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .servicios .div1 p {
+        background-color: white;
     }
 }

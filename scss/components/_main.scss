@@ -104,6 +104,11 @@ main {
         grid-template-columns: 1.5fr 1fr;
         grid-template-rows: 1fr;
 
+        @include mediaquery(680px){
+            display: flex;
+            flex-direction: column;
+        }
+
         p {
             border: solid 1px;
             margin: 10px;
@@ -201,6 +206,12 @@ main {
     gap: 20px;
     margin: 20px;
     margin-bottom: 15px;
+
+    @include mediaquery(680px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 
     h2 {
         font-family: 'Bebas Neue', cursive;
