@@ -107,7 +107,27 @@ body {
   .servicios .div1 p {
     background-color: white; } }
 
-main .hero {
+.horariosLocal {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 50px;
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.521);
+  padding: 10px;
+  box-shadow: -9px 10px 5px 0px rgba(224, 96, 27, 0.75);
+  -webkit-box-shadow: -9px 10px 5px 0px rgba(224, 96, 27, 0.75);
+  -moz-box-shadow: -9px 10px 5px 0px rgba(224, 96, 27, 0.75);
+  transition-duration: 2s; }
+  .horariosLocal:hover {
+    transform: scale(1.2); }
+  .horariosLocal div {
+    color: white; }
+
+.hero {
   background-image: url(../img/camion-main-hd.jpg);
   width: 100%;
   background-position: center;
@@ -116,17 +136,17 @@ main .hero {
   background-attachment: fixed;
   position: relative;
   padding-bottom: 556px; }
-  main .hero h1 {
+  .hero h1 {
     position: absolute;
     bottom: 40px;
     left: 60px; }
-  main .hero div h2 {
+  .hero div h2 {
     background-color: black;
     text-decoration: none;
     color: white;
     text-align: center; }
 
-main .repuestos h2 {
+.repuestos h2 {
   font-family: 'Bebas Neue', cursive;
   text-align: center;
   font-size: 40px;
@@ -135,29 +155,29 @@ main .repuestos h2 {
   background-color: rgba(0, 0, 0, 0.5);
   letter-spacing: 3px; }
 
-main .repuestos div img {
+.repuestos div img {
   width: 200px;
   height: 300px; }
 
-main .repuestos .repuestosBox {
+.repuestos .repuestosBox {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px; }
-  main .repuestos .repuestosBox p {
+  .repuestos .repuestosBox p {
     margin-bottom: 20px; }
-  main .repuestos .repuestosBox a {
+  .repuestos .repuestosBox a {
     text-decoration: none;
     background-color: #ff4500;
     color: white;
     padding: 5px 10px 5px 10px;
     transition-duration: 0.1s; }
-    main .repuestos .repuestosBox a:hover {
+    .repuestos .repuestosBox a:hover {
       background-color: white;
       color: #ff4500;
       border-radius: 5px;
       border: 1px solid black; }
-  main .repuestos .repuestosBox div {
+  .repuestos .repuestosBox div {
     background-color: rgba(255, 255, 255, 0.84);
     display: inline-block;
     text-align: center;
@@ -168,82 +188,25 @@ main .repuestos .repuestosBox {
     -webkit-box-shadow: -8px 8px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -8px 8px 5px 0px rgba(0, 0, 0, 0.75);
     transition-duration: 0.2s; }
-    main .repuestos .repuestosBox div:hover {
+    .repuestos .repuestosBox div:hover {
       transform: scale(1.1); }
-  main .repuestos .repuestosBox .calderas img {
+  .repuestos .repuestosBox .calderas img {
     width: 350px; }
-  main .repuestos .repuestosBox .hojaElastico img {
+  .repuestos .repuestosBox .hojaElastico img {
     width: 350px; }
 
-main .videos {
+.videos {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: 1fr; }
-  @media screen and (max-width: 680px) {
-    main .videos {
-      display: flex;
-      flex-direction: column; } }
-  main .videos p {
+  .videos p {
     border: solid 1px;
     margin: 10px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 4vh; }
-  main .videos iframe {
+  .videos iframe {
     margin: 10px; }
-
-main .servicios .tituloServicios {
-  text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  background-color: #fdbb2d; }
-
-main .servicios div h2 {
-  background-color: rgba(0, 0, 0, 0.336);
-  color: white;
-  font-family: 'Bebas Neue', cursive;
-  display: flex;
-  justify-content: center;
-  margin-top: 3px; }
-
-main .servicios .div1 {
-  display: flex;
-  justify-content: flex-end; }
-  main .servicios .div1 img {
-    width: 50%;
-    height: 50%; }
-  main .servicios .div1 p {
-    display: flex;
-    justify-content: end;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-left: 10px;
-    font-family: 'Abel', sans-serif;
-    font-size: 2rem; }
-
-main .servicios .div2 {
-  display: flex;
-  justify-content: flex-end; }
-  main .servicios .div2 p {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-right: 10px;
-    font-family: 'Abel', sans-serif;
-    font-size: 2rem;
-    padding-left: 10px; }
-  main .servicios .div2 img {
-    width: 50%;
-    height: 50%; }
-
-main .acercaDe {
-  height: 100vh; }
-  main .acercaDe .acercaDeNosotros {
-    text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    background-color: #fdbb2d; }
-  main .acercaDe div img {
-    width: 60%;
-    height: 60%;
-    object-fit: cover; }
 
 .repuestos1 {
   margin-top: 30px;
@@ -253,11 +216,6 @@ main .acercaDe {
   gap: 20px;
   margin: 20px;
   margin-bottom: 15px; }
-  @media screen and (max-width: 680px) {
-    .repuestos1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr; } }
   .repuestos1 h2 {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
@@ -316,25 +274,72 @@ main .acercaDe {
       background-color: white;
       color: #ff4500; }
 
-.horariosLocal {
-  font-family: 'Bebas Neue', cursive;
-  font-weight: 50px;
-  position: fixed;
-  bottom: 5%;
-  right: 3%;
+.servicios .tituloServicios {
   text-align: center;
-  font-size: 17px;
-  letter-spacing: 2px;
-  background-color: rgba(0, 0, 0, 0.521);
-  padding: 10px;
-  box-shadow: -9px 10px 5px 0px rgba(224, 96, 27, 0.75);
-  -webkit-box-shadow: -9px 10px 5px 0px rgba(224, 96, 27, 0.75);
-  -moz-box-shadow: -9px 10px 5px 0px rgba(224, 96, 27, 0.75);
-  transition-duration: 2s; }
-  .horariosLocal:hover {
-    transform: scale(1.2); }
-  .horariosLocal div {
-    color: white; }
+  font-family: 'Bebas Neue', cursive;
+  background-color: #fdbb2d; }
+
+.servicios div h2 {
+  background-color: rgba(0, 0, 0, 0.336);
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 3px; }
+
+.servicios .div1 {
+  display: flex;
+  justify-content: flex-end; }
+  .servicios .div1 img {
+    width: 50%;
+    height: 50%; }
+  .servicios .div1 p {
+    display: flex;
+    justify-content: end;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    font-family: 'Abel', sans-serif;
+    font-size: 2rem; }
+
+.servicios .div2 {
+  display: flex;
+  justify-content: flex-end; }
+  .servicios .div2 p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-right: 10px;
+    font-family: 'Abel', sans-serif;
+    font-size: 2rem;
+    padding-left: 10px; }
+  .servicios .div2 img {
+    width: 50%;
+    height: 50%; }
+
+.mainAcercaDe .acercaDeNosotros {
+  background-color: #fdbb2d; }
+  .mainAcercaDe .acercaDeNosotros h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px; }
+
+.mainAcercaDe div {
+  display: flex;
+  justify-content: center; }
+
+.mainAcercaDe .nuestraHistoria {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-right: 10px;
+  font-family: 'Abel', sans-serif;
+  font-size: 2rem;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.mainAcercaDe .imagenContacto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 body {
   height: 100%;

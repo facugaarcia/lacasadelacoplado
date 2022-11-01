@@ -1,0 +1,57 @@
+.servicios {
+    .tituloServicios {
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        background-color: #fdbb2d;
+    }
+
+    div {
+        h2 {
+            background-color: rgba(0, 0, 0, 0.336);
+            color: white;
+            font-family: 'Bebas Neue', cursive;
+            display: flex;
+            justify-content: center;
+            margin-top: 3px;
+        }
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            width: 50%;
+            height: 50%;
+        }
+
+        p {
+            display: flex;
+            justify-content: end;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-left: 10px;
+            font-family: 'Abel', sans-serif;
+            font-size: 2rem;
+        }
+    }
+
+    .div2 {
+        display: flex;
+        justify-content: flex-end;
+
+        p {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-right: 10px;
+            font-family: 'Abel', sans-serif;
+            font-size: 2rem;
+            padding-left: 10px;
+        }
+
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+}
