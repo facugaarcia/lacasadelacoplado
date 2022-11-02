@@ -15,6 +15,11 @@
     -webkit-box-shadow: -9px 10px 5px 0px rgba(224,96,27,0.75);
     -moz-box-shadow: -9px 10px 5px 0px rgba(224,96,27,0.75);
     transition-duration: 2s;
+    @media screen and (max-width: 680px){
+        &{
+            display: none;
+        }
+    }
     &:hover{
         transform: scale(1.20);
     }
@@ -22,3 +27,4 @@
         color: white;
     }
 }
+

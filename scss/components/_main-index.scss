@@ -7,11 +7,15 @@
     background-attachment: fixed;
     position: relative;
     padding-bottom: 556px;
-
     h1 {
         position: absolute;
         bottom: 40px;
         left: 60px;
+        @media screen and (max-width: 680px){
+            &{
+                font-size: 30px;
+            }
+        }
     }
 
     div {
@@ -48,7 +52,12 @@
         justify-content: space-between;
         align-items: center;
         padding: 30px;
-
+        @media screen and (max-width: 1271px){
+            &{
+                display: flex;
+                justify-content: center;
+            }
+        }
         p {
             margin-bottom: 20px;
         }
@@ -86,12 +95,22 @@
         }
 
         .calderas {
+            @media screen and (max-width: 1271px){
+                &{
+                    display: none;
+                }
+            }
             img {
                 width: 350px;
             }
         }
 
         .hojaElastico {
+            @media screen and (max-width: 800px){
+                &{
+                    display: none;
+                }
+            }
             img {
                 width: 350px;
             }
@@ -100,9 +119,12 @@
 }
 
 .videos {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    @media screen and (max-width: 800px){
+        &{
+            flex-direction: column;
+        }
+    }
 
     p {
         border: solid 1px;
@@ -110,9 +132,20 @@
         text-align: center;
         font-family: 'Bebas Neue', cursive;
         font-size: 4vh;
+        @media screen and (max-width: 680px){
+            &{
+                width: 98%;
+            }
+        }
     }
 
     iframe {
         margin: 10px;
+        @media screen and (max-width: 860px){
+            &{
+                display: none;
+                visibility: hidden !important;
+            }
+        }
     }
 }
