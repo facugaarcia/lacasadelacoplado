@@ -1,3 +1,6 @@
+
+@import "../base/variables";
+
 .hero {
     background-image: url(../img/camion-main-hd.jpg);
     width: 100%;
@@ -22,7 +25,7 @@
         h2 {
             background-color: black;
             text-decoration: none;
-            color: white;
+            color: $color-terciario;
             text-align: center;
         }
     }
@@ -64,14 +67,14 @@
 
         a {
             text-decoration: none;
-            background-color: #ff4500;
-            color: white;
+            background-color: $color-principal;
+            color: $color-terciario;
             padding: 5px 10px 5px 10px;
             transition-duration: 0.1s;
 
             &:hover {
-                background-color: white;
-                color: #ff4500;
+                background-color: $color-terciario;
+                color: $color-principal;
                 border-radius: 5px;
                 border: 1px solid black;
             }

@@ -1,4 +1,4 @@
-
+@import "../base/variables";
 
 .horariosLocal{
     font-family: 'Bebas Neue', cursive;
@@ -24,7 +24,7 @@
         transform: scale(1.20);
     }
     div{
-        color: white;
+        color: $color-terciario;
     }
 }
 

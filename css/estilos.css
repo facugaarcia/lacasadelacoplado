@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 footer {
   background: #e52828;
-  background: linear-gradient(0deg, #e52828 0%, orangered 25%, #fdbb2d 100%);
+  background: linear-gradient(0deg, #fdbb2d 0%, orangered 66%, #e52828 100%);
   padding: 30px;
   width: 100%; }
   footer .redesSociales {
@@ -65,10 +65,6 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
-
-@media screen and (max-width: 800px) {
-  .servicios .div1 p {
-    background-color: white; } }
 
 .horariosLocal {
   font-family: 'Bebas Neue', cursive;

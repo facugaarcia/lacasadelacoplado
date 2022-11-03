@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 body{
 	height: 100%; 
 	font-family: 'Noto Sans', sans-serif;
@@ -66,7 +68,7 @@ body{
                     margin-top: 10px; 	
                     text-transform: uppercase;
                     background-color: #ff4400; 
-                    border-color: #ff4500; 
+                    border-color: $color-principal; 
                     border-style: solid; 
                     border-radius: 10px;	
                     width: 420px;   

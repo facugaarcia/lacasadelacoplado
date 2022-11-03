@@ -1,8 +1,8 @@
-
+@import "../base/variables";
 
 header{
     background: rgb(253,187,45);
-    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(255,69,0,1) 66%, rgba(229,40,40,1) 100%);
+    background: $color-gradiente;
     display: flex; 
     justify-content: space-between;
     align-items: flex-end;
@@ -31,7 +31,7 @@ header{
                 }
                 a{
                     text-decoration: none;
-                    color:white;
+                    color:$color-terciario;
                     font-family: 'Bebas Neue', cursive;
                     font-size: 20px;
                     font-weight: 100;

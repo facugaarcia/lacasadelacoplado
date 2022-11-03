@@ -1,14 +1,16 @@
+@import "../base/variables";
+
 .servicios {
     .tituloServicios {
         text-align: center;
         font-family: 'Bebas Neue', cursive;
-        background-color: #fdbb2d;
+        background-color: $color-secundario;
     }
 
     div {
         h2 {
             background-color: rgba(0, 0, 0, 0.336);
-            color: white;
+            color: $color-terciario;
             font-family: 'Bebas Neue', cursive;
             display: flex;
             justify-content: center;
@@ -28,7 +30,7 @@
         p {
             display: flex;
             justify-content: end;
-            color: white;
+            color: $color-terciario;
             background-color: rgba(0, 0, 0, 0.5);
             padding-left: 10px;
             font-family: 'Abel', sans-serif;
@@ -41,7 +43,7 @@
         justify-content: flex-end;
 
         p {
-            color: white;
+            color: $color-terciario;
             background-color: rgba(0, 0, 0, 0.5);
             padding-right: 10px;
             font-family: 'Abel', sans-serif;

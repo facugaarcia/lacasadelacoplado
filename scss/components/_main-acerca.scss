@@ -1,7 +1,8 @@
+@import "../base/variables";
 
 .mainAcercaDe{ 
     .acercaDeNosotros{
-        background-color: #fdbb2d;
+        background-color: $color-secundario;
         h1{
         text-align: center;
         font-family: 'Bebas Neue', cursive;
@@ -13,7 +14,7 @@
         justify-content: center;
     }
     .nuestraHistoria{
-            color: white;
+            color: $color-terciario;
             background-color: rgba(0, 0, 0, 0.5);
             padding-right: 10px;
             font-family: 'Abel', sans-serif;

@@ -1,7 +1,9 @@
+@import "../base/variables";
+
 
 footer{
     background: rgb(229,40,40);
-    background: linear-gradient(0deg, rgba(229,40,40,1) 0%, rgba(255,69,0,1) 25%, rgba(253,187,45,1) 100%);
+    background: $color-gradiente;
     padding: 30px;
     width: 100%;
     .redesSociales{
